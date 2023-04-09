@@ -1,0 +1,18 @@
+if (present_position <= 250 && present_position >= 100)
+            {
+                switch (e.KeyCode)
+                {
+                    case Keys.A:
+                        present_position -= 50;
+                        
+                       
+                        break;
+                    case Keys.D:
+                        present_position += 50 ;
+                        
+                        break;
+                }
+            }
+             if (present_position >= 250) { present_position = 250; }
+            if (present_position <= 100) { present_position = 100; }
+            button1.SetBounds(present_position, 200, 40, 40);

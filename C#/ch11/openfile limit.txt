@@ -1,0 +1,11 @@
+int i = 0;
+            string[] address = new string[4];
+            openFileDialog1.Multiselect = true;
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                foreach(String files in openFileDialog1.FileNames.Take(4))
+                {
+                    address[i++] = files;
+                }
+            }
+            MessageBox.Show(address[0] + rn + address[1] + rn + address[2] + rn + address[3]);

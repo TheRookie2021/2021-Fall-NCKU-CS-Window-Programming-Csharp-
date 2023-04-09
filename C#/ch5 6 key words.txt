@@ -1,0 +1,24 @@
+object: property
+
+public : 所有scope都可以使用
+private : 只能在 class 裡面使用
+protect :  can not only be accessed by their base classes, but also by their sub classes.
+
+windows form
+
+MessageBox.Show() ;// 
+
+class {
+ constructor: 初始化值(主動設定或defalt)
+ properties: variables
+ method : functions
+}
+
+overloading constructor
+
+
+windows form 
+
+bottom 
+event and action must be set!!
+label 顯示文字

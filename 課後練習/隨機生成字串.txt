@@ -1,0 +1,23 @@
+限制: 字串在C# 是唯讀、random 是偽隨機
+解決技巧: 建立arr裡面每個元素都是一個字母(可能會用到string.split(' '))，利用陣列的隨機排列Order打亂剛建立的arr，之後再逐一放進空字串。
+
+public void Generate()
+        {//generate random table for crypto
+            Substitution = String.Empty;
+        
+            Random rnd = new Random();
+           
+            string[] Split_AZ=Alphabet.Split(' ');
+            Split_AZ = Split_AZ.OrderBy(x => rnd.Next()).ToArray();
+            foreach (var i in Split_AZ)
+            {
+                Substitution += i;
+            }
+        }
+
+OrderBy() 方法將每個元素放置在隨機索引處。
+然後，使用 ToArray() 方法將結果資料結構轉換為陣列
+
+逐一檢查是否有抽過這個做法會導致抽不完 (loop停不下來)
+
+

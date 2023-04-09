@@ -1,0 +1,10 @@
+FileInfo
+FileStream
+
+BinaryWriter
+BinaryReader
+
+Directory
+
+StreamWriter
+StreamReader

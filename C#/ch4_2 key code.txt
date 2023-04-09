@@ -1,0 +1,52 @@
+.ToString()
+Arr.Length
+Arr.Sort( arrname ) //小到大
+Arr.Reverse( arrname )
+Console.Write("\t "); // print tab
+Arr.IndexOf()
+Arr.Resize()
+Arr.GetLength()
+GetLowerBound()
+GetUpperBound()
+
+Method: 
+Random Method 
+int rnd.Next(num,num)
+rnd.NextDouble
+Random ranobject= new Random();
+int ranNo=ranobject.Next(1,10)
+
+User- defined Method:	
+Method==function in C
+class memberfunction
+
+call by value:
+call by reference: ref //== "&" in C 
+
+overloading
+
+recursive
+
+string:
+$ for Console.WriteLine();
+IndexOf
+Insert
+Remove
+Replace
+Trim
+ToLower
+ToUpper //大小寫
+Substring
+
+
+----------------------------------
+practice
+21點
+
+輸入初始金額
+輸入下注金額
+抽排或跳過
+抽到玩家一喊停
+
+
+

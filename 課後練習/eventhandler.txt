@@ -1,0 +1,5 @@
+  
+ this.chessboard[i, j].Click += new System.EventHandler(this.chess_Click);//button event
+private void chess_Click(object sender, EventArgs e)
+        {
+            Chessman chessRef = (Chessman)sender;...}
